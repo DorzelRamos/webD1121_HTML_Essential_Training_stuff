@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Section 5: Images and Graphics</title>
+</head>
+<body>
+    <h1>Images</h1>
+    <p>When you want to put an image in a website you use a <b>IMG element</b></p>
+    <h3> There are four attributes important to make an image:</h3>
+    <ul>
+        <li>The source attribute <b>src</b></li>
+        <li>The alt attribute <b>alt</b></li>
+        <li>The <b>width</b> attribute</li>
+        <li>The <b>height</b> attribute</li>
+    </ul>
+    <h4>SRC attribute</h4>
+    <dd>Tells the browser which file to load for the image to show up</dd>
+
+    <h4>ALT attribute</h4>
+    <dd>Acts as the placeholder whenever the image can't be seen. You can write about the image here</dd>
+
+    <h4>width attribute</h4>
+    <dd>Displays the images width. Can be in px, cm, inch, etc. Doesn't matter which goes first width or height</dd>
+
+    <h4>height attribute</h4>
+    <dd>Displayst he images height. Can be in px, cm, inch, etc. Doesn't matter which goes first height or width</dd>
+
+    <h3>The image formats</h3>
+    <p>To put an image on a webpage it has to be a file the browser will understand. The <i>goal</i> is to have 
+    the highest quality photo in a small file size.</p>
+    <h4>There are <b>four main files</b> that are commonly used:</h4>
+    <h4> GIF </h4>
+        <ul>
+            <li>Really good for compressing large colors</li>
+            <li>Has limited space of 256 colors</li>
+            <li>Can do transparency</li>
+            <li> Can have multiple frames and make short movies</li>
+        </ul>
+    <h4>SVG (Scalable vector graphic)</h4>
+        <ul>
+            <li>Good for logos, icons, etc.</li>
+            <li> Good for vector files</li>
+        </ul>
+    <h4>JPG (for compressing photos</h4>
+        <ul>
+            <li>Can be compressed</li>
+            <li>Size vs Quality</li>
+        </ul>
+    <h4>PNG (more new than GIF and JPG)</h4>
+        <ul>
+            <li>For images that need transparency</li>
+            <li>Good at compression</li>
+            <li>Good for photos and images</li>
+            <li>Depends when to use</li>
+        </ul>
+    <h3>Responsive Images</h3>
+        <p>You can use HTML to send the same photo to different screens in different sizes.
+            This works by leting the browser decide which file size is right for the device by giving
+            it options. There's 1x, 2x, 3x, and so on and so forth.
+        </p>
+        <br>
+        <p>You could also tell the browser to pick the image photos by device density and viewport width.</p>
+        <h4>The size attributes for image elements</h4>
+        <dd>This lists which size image to use at which media querty</dd>
+
+        <h4>The srcset attributes for image elements</h4>
+        <dd>Allows you to specify mutiple files to be used based on either viewport width or image px width</dd>
+
+        <h4> The picture element</h4>
+        <dd>If you wrap an <b>img element</b> with a <b>picture element</b> you can decide which source
+        elements to use for it.</dd>
+</body>
+</html>
