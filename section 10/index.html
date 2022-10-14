@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Section 10: Structuring tablular data</title>
+</head>
+<body>
+    <h1>When to use tables?</h1>
+    <p>You use the table when you're making a table. But a long time ago there wasn't CSS to create
+        and stylize tables. Tabular data can be used for <b>research data</b> and organizing it.
+        It contains the relationship of cells of data.
+    </p>
+    <h2>Here's what you need to create a table in HTML:</h2>
+    <ul>
+        <li>table</li>
+        <p><i>Wraps around the entire markup of table elements</i></p>
+        <li>tr</li>
+        <p><i>Also known as Table Row, it wraps around a set of elements, defining them as belonging
+            to the same row. It's attributes are <b>colspan, rowspan, </b>and <b>headers</b>
+        </i></p>
+        <li>th</li>
+        <p><i>Stands for Table Header. It defines the header for the column. It's attributes are
+            the same as tr, except instead of headers its <b>scope</b>.
+        </i></p>
+        <li>td</li>
+        <p><i>The Table Data is used to mark the actual bits of data.</i></p>
+    </ul>
+    <h3>EXAMPLE</h3>
+    <!--You can put anything in a table btw-->
+    <table>
+        <tr>
+        <th>Vegetables</th>
+        <th>Fruits</th>
+        </tr>
+        <td>Cucumbers</td>
+        <td>Bananas</td>
+        <tr>
+            <td>Brocoli</td>
+            <td>Pears</td>
+        </tr>
+        <tr>
+            <td>Onions</td>
+            <td>Grapes</td>
+        </tr>
+        <tr>
+            <td>Potatoes</td>
+            <td>Oranges</td>
+        </tr>
+        <tr>
+            <td>Egg plant</td>
+            <td>Tomatoes</td>
+        </tr>
+
+    </table>
+</body>
+</html>
